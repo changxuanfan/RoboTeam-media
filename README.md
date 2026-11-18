@@ -44,9 +44,12 @@ The file's format is described in the main repository's `site/DESIGN.md`.
 
 ## Film
 
+A tour of the factory hall, cut from Oracle reference runs. It does not show model results.
+
 | Path | Content |
 | --- | --- |
-| `film/robofrontier-film-1080p.mp4` | A 3 min 41 s tour of the factory hall, 1080p, cut from Oracle reference runs, not model results. This is an earlier cut that still carries the project's previous name |
+| `film/roboteam-film-1080p.mp4` | The film, 3 min 41 s, 1080p: one moment from each zone, then every task type and team size |
+| `film/roboteam-short-1080p.mp4` | The short cut, 25 s, 1080p: the title card, one moment from each zone and the hall |
 | `film/film.jpg` | Poster frame of the film |
 
 Licensed under [CC BY 4.0](https://github.com/changxuanfan/RoboTeam/blob/main/LICENSE-DATA.md).
