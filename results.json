@@ -1,0 +1,655 @@
+{
+ "schema": "roboteam.site-results.v1",
+ "conditions": [
+  {
+   "key": "oracle",
+   "label": "Oracle",
+   "group": "Reference · ground-truth positions",
+   "completed": 36,
+   "within": {
+    "3": 21,
+    "6": 24,
+    "12": 31,
+    "24": 36
+   },
+   "median_hours": 1.45,
+   "median_input_tokens_m": null,
+   "atomic_failure": null
+  },
+  {
+   "key": "adaptive",
+   "label": "Adaptive",
+   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "completed": 28,
+   "within": {
+    "3": 16,
+    "6": 22,
+    "12": 26,
+    "24": 28
+   },
+   "median_hours": 3.48,
+   "median_input_tokens_m": 218.0,
+   "atomic_failure": 0.337
+  },
+  {
+   "key": "hierarchical",
+   "label": "Hierarchical",
+   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "completed": 29,
+   "within": {
+    "3": 16,
+    "6": 23,
+    "12": 27,
+    "24": 29
+   },
+   "median_hours": 3.09,
+   "median_input_tokens_m": 821.0,
+   "atomic_failure": 0.365
+  },
+  {
+   "key": "decentralized",
+   "label": "Decentralized",
+   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "completed": 29,
+   "within": {
+    "3": 16,
+    "6": 23,
+    "12": 28,
+    "24": 29
+   },
+   "median_hours": 4.2,
+   "median_input_tokens_m": 904.0,
+   "atomic_failure": 0.35100000000000003
+  },
+  {
+   "key": "single-agent",
+   "label": "Single-agent",
+   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "completed": 27,
+   "within": {
+    "3": 10,
+    "6": 14,
+    "12": 19,
+    "24": 27
+   },
+   "median_hours": 8.7,
+   "median_input_tokens_m": 277.0,
+   "atomic_failure": 0.289
+  },
+  {
+   "key": "robot-tool-only",
+   "label": "Robot tool only",
+   "group": "Vision and tools · gpt-6.1-sol, Codex",
+   "completed": 13,
+   "within": {
+    "3": 8,
+    "6": 9,
+    "12": 13,
+    "24": 13
+   },
+   "median_hours": 4.99,
+   "median_input_tokens_m": 406.0,
+   "atomic_failure": 0.519
+  },
+  {
+   "key": "low-resolution",
+   "label": "Low resolution",
+   "group": "Vision and tools · gpt-6.1-sol, Codex",
+   "completed": 14,
+   "within": {
+    "3": 7,
+    "6": 8,
+    "12": 11,
+    "24": 14
+   },
+   "median_hours": 6.27,
+   "median_input_tokens_m": 497.0,
+   "atomic_failure": 0.583
+  },
+  {
+   "key": "gpt-claude-code",
+   "label": "gpt-6.1-sol",
+   "group": "In Claude Code · adaptive system",
+   "completed": 25,
+   "within": {
+    "3": 16,
+    "6": 19,
+    "12": 23,
+    "24": 25
+   },
+   "median_hours": 3.24,
+   "median_input_tokens_m": 334.0,
+   "atomic_failure": 0.359
+  },
+  {
+   "key": "opus-claude-code",
+   "label": "opus-5.5",
+   "group": "In Claude Code · adaptive system",
+   "completed": 27,
+   "within": {
+    "3": 13,
+    "6": 22,
+    "12": 25,
+    "24": 27
+   },
+   "median_hours": 3.29,
+   "median_input_tokens_m": 112.0,
+   "atomic_failure": 0.331
+  },
+  {
+   "key": "opus-codex",
+   "label": "opus-5.5",
+   "group": "Other models · adaptive system, Codex",
+   "completed": 26,
+   "within": {
+    "3": 12,
+    "6": 20,
+    "12": 21,
+    "24": 26
+   },
+   "median_hours": 4.14,
+   "median_input_tokens_m": 368.0,
+   "atomic_failure": 0.345
+  },
+  {
+   "key": "kimi",
+   "label": "kimi-k3.1-pro",
+   "group": "Other models · adaptive system, Codex",
+   "completed": 3,
+   "within": {
+    "3": 1,
+    "6": 2,
+    "12": 3,
+    "24": 3
+   },
+   "median_hours": 1.21,
+   "median_input_tokens_m": 96.0,
+   "atomic_failure": 0.898
+  },
+  {
+   "key": "qwen",
+   "label": "qwen3.8-flash",
+   "group": "Other models · adaptive system, Codex",
+   "completed": 1,
+   "within": {
+    "3": 0,
+    "6": 0,
+    "12": 1,
+    "24": 1
+   },
+   "median_hours": 0.99,
+   "median_input_tokens_m": 86.0,
+   "atomic_failure": 0.7879999999999999
+  },
+  {
+   "key": "deepseek",
+   "label": "deepseek-v4.1-flash",
+   "group": "Other models · adaptive system, Codex",
+   "completed": 1,
+   "within": {
+    "3": 1,
+    "6": 1,
+    "12": 1,
+    "24": 1
+   },
+   "median_hours": 3.01,
+   "median_input_tokens_m": 235.0,
+   "atomic_failure": 0.858
+  },
+  {
+   "key": "glm",
+   "label": "glm-5.3-flash",
+   "group": "Other models · adaptive system, Codex",
+   "completed": 0,
+   "within": {
+    "3": 0,
+    "6": 0,
+    "12": 0,
+    "24": 0
+   },
+   "median_hours": 1.03,
+   "median_input_tokens_m": 79.0,
+   "atomic_failure": 0.812
+  }
+ ],
+ "outcomes": {
+  "gpt-6.1-sol": {
+   "transport-small-l1": {
+    "completed": true,
+    "hours": 0.68
+   },
+   "transport-small-l2": {
+    "completed": true,
+    "hours": 1.45
+   },
+   "transport-small-l3": {
+    "completed": true,
+    "hours": 2.29
+   },
+   "transport-medium-l1": {
+    "completed": false,
+    "hours": 3.74
+   },
+   "transport-medium-l2": {
+    "completed": true,
+    "hours": 4.97
+   },
+   "transport-medium-l3": {
+    "completed": true,
+    "hours": 14.46
+   },
+   "transport-large-l1": {
+    "completed": false,
+    "hours": 11.89
+   },
+   "transport-large-l2": {
+    "completed": true,
+    "hours": 6.52
+   },
+   "transport-large-l3": {
+    "completed": true,
+    "hours": 23.59
+   },
+   "mosaic-small-l1": {
+    "completed": true,
+    "hours": 2.34
+   },
+   "mosaic-small-l2": {
+    "completed": true,
+    "hours": 1.42
+   },
+   "mosaic-small-l3": {
+    "completed": true,
+    "hours": 2.26
+   },
+   "mosaic-medium-l1": {
+    "completed": true,
+    "hours": 6.47
+   },
+   "mosaic-medium-l2": {
+    "completed": false,
+    "hours": 5.21
+   },
+   "mosaic-medium-l3": {
+    "completed": true,
+    "hours": 6.71
+   },
+   "mosaic-large-l1": {
+    "completed": false,
+    "hours": 24.0
+   },
+   "mosaic-large-l2": {
+    "completed": false,
+    "hours": 24.0
+   },
+   "mosaic-large-l3": {
+    "completed": false,
+    "hours": 24.0
+   },
+   "relay-small-l1": {
+    "completed": true,
+    "hours": 0.56
+   },
+   "relay-small-l2": {
+    "completed": true,
+    "hours": 2.35
+   },
+   "relay-small-l3": {
+    "completed": true,
+    "hours": 1.12
+   },
+   "relay-medium-l1": {
+    "completed": true,
+    "hours": 3.68
+   },
+   "relay-medium-l2": {
+    "completed": true,
+    "hours": 3.27
+   },
+   "relay-medium-l3": {
+    "completed": true,
+    "hours": 1.76
+   },
+   "relay-large-l1": {
+    "completed": true,
+    "hours": 2.33
+   },
+   "relay-large-l2": {
+    "completed": false,
+    "hours": 24.0
+   },
+   "relay-large-l3": {
+    "completed": true,
+    "hours": 5.76
+   },
+   "dial-small-l1": {
+    "completed": true,
+    "hours": 0.24
+   },
+   "dial-small-l2": {
+    "completed": true,
+    "hours": 0.73
+   },
+   "dial-small-l3": {
+    "completed": false,
+    "hours": 24.0
+   },
+   "dial-medium-l1": {
+    "completed": true,
+    "hours": 0.29
+   },
+   "dial-medium-l2": {
+    "completed": true,
+    "hours": 1.11
+   },
+   "dial-medium-l3": {
+    "completed": true,
+    "hours": 11.46
+   },
+   "dial-large-l1": {
+    "completed": true,
+    "hours": 0.29
+   },
+   "dial-large-l2": {
+    "completed": true,
+    "hours": 3.2
+   },
+   "dial-large-l3": {
+    "completed": true,
+    "hours": 5.87
+   }
+  },
+  "opus-5.5": {
+   "transport-small-l1": {
+    "completed": false,
+    "hours": 0.33
+   },
+   "transport-small-l2": {
+    "completed": true,
+    "hours": 3.93
+   },
+   "transport-small-l3": {
+    "completed": true,
+    "hours": 3.93
+   },
+   "transport-medium-l1": {
+    "completed": false,
+    "hours": 0.43
+   },
+   "transport-medium-l2": {
+    "completed": true,
+    "hours": 6.25
+   },
+   "transport-medium-l3": {
+    "completed": true,
+    "hours": 6.91
+   },
+   "transport-large-l1": {
+    "completed": false,
+    "hours": 2.19
+   },
+   "transport-large-l2": {
+    "completed": true,
+    "hours": 13.82
+   },
+   "transport-large-l3": {
+    "completed": true,
+    "hours": 11.28
+   },
+   "mosaic-small-l1": {
+    "completed": true,
+    "hours": 1.08
+   },
+   "mosaic-small-l2": {
+    "completed": true,
+    "hours": 1.38
+   },
+   "mosaic-small-l3": {
+    "completed": true,
+    "hours": 3.42
+   },
+   "mosaic-medium-l1": {
+    "completed": false,
+    "hours": 11.5
+   },
+   "mosaic-medium-l2": {
+    "completed": true,
+    "hours": 5.14
+   },
+   "mosaic-medium-l3": {
+    "completed": true,
+    "hours": 3.49
+   },
+   "mosaic-large-l1": {
+    "completed": true,
+    "hours": 12.4
+   },
+   "mosaic-large-l2": {
+    "completed": false,
+    "hours": 21.87
+   },
+   "mosaic-large-l3": {
+    "completed": false,
+    "hours": 4.14
+   },
+   "relay-small-l1": {
+    "completed": true,
+    "hours": 0.55
+   },
+   "relay-small-l2": {
+    "completed": false,
+    "hours": 1.14
+   },
+   "relay-small-l3": {
+    "completed": true,
+    "hours": 1.16
+   },
+   "relay-medium-l1": {
+    "completed": true,
+    "hours": 1.5
+   },
+   "relay-medium-l2": {
+    "completed": true,
+    "hours": 3.17
+   },
+   "relay-medium-l3": {
+    "completed": true,
+    "hours": 2.75
+   },
+   "relay-large-l1": {
+    "completed": true,
+    "hours": 2.43
+   },
+   "relay-large-l2": {
+    "completed": false,
+    "hours": 24.0
+   },
+   "relay-large-l3": {
+    "completed": false,
+    "hours": 7.02
+   },
+   "dial-small-l1": {
+    "completed": true,
+    "hours": 0.16
+   },
+   "dial-small-l2": {
+    "completed": true,
+    "hours": 1.57
+   },
+   "dial-small-l3": {
+    "completed": true,
+    "hours": 0.73
+   },
+   "dial-medium-l1": {
+    "completed": true,
+    "hours": 0.14
+   },
+   "dial-medium-l2": {
+    "completed": true,
+    "hours": 0.34
+   },
+   "dial-medium-l3": {
+    "completed": true,
+    "hours": 5.73
+   },
+   "dial-large-l1": {
+    "completed": true,
+    "hours": 0.26
+   },
+   "dial-large-l2": {
+    "completed": true,
+    "hours": 4.62
+   },
+   "dial-large-l3": {
+    "completed": true,
+    "hours": 5.34
+   }
+  },
+  "oracle": {
+   "transport-small-l1": {
+    "completed": true,
+    "hours": 0.07
+   },
+   "transport-small-l2": {
+    "completed": true,
+    "hours": 0.35
+   },
+   "transport-small-l3": {
+    "completed": true,
+    "hours": 0.28
+   },
+   "transport-medium-l1": {
+    "completed": true,
+    "hours": 0.29
+   },
+   "transport-medium-l2": {
+    "completed": true,
+    "hours": 6.05
+   },
+   "transport-medium-l3": {
+    "completed": true,
+    "hours": 7.21
+   },
+   "transport-large-l1": {
+    "completed": true,
+    "hours": 1.13
+   },
+   "transport-large-l2": {
+    "completed": true,
+    "hours": 1.95
+   },
+   "transport-large-l3": {
+    "completed": true,
+    "hours": 2.93
+   },
+   "mosaic-small-l1": {
+    "completed": true,
+    "hours": 0.5
+   },
+   "mosaic-small-l2": {
+    "completed": true,
+    "hours": 0.45
+   },
+   "mosaic-small-l3": {
+    "completed": true,
+    "hours": 0.42
+   },
+   "mosaic-medium-l1": {
+    "completed": true,
+    "hours": 6.38
+   },
+   "mosaic-medium-l2": {
+    "completed": true,
+    "hours": 3.54
+   },
+   "mosaic-medium-l3": {
+    "completed": true,
+    "hours": 6.6
+   },
+   "mosaic-large-l1": {
+    "completed": true,
+    "hours": 17.76
+   },
+   "mosaic-large-l2": {
+    "completed": true,
+    "hours": 19.4
+   },
+   "mosaic-large-l3": {
+    "completed": true,
+    "hours": 19.57
+   },
+   "relay-small-l1": {
+    "completed": true,
+    "hours": 0.16
+   },
+   "relay-small-l2": {
+    "completed": true,
+    "hours": 3.67
+   },
+   "relay-small-l3": {
+    "completed": true,
+    "hours": 3.86
+   },
+   "relay-medium-l1": {
+    "completed": true,
+    "hours": 1.51
+   },
+   "relay-medium-l2": {
+    "completed": true,
+    "hours": 7.58
+   },
+   "relay-medium-l3": {
+    "completed": true,
+    "hours": 6.99
+   },
+   "relay-large-l1": {
+    "completed": true,
+    "hours": 11.18
+   },
+   "relay-large-l2": {
+    "completed": true,
+    "hours": 20.02
+   },
+   "relay-large-l3": {
+    "completed": true,
+    "hours": 20.02
+   },
+   "dial-small-l1": {
+    "completed": true,
+    "hours": 0.04
+   },
+   "dial-small-l2": {
+    "completed": true,
+    "hours": 0.04
+   },
+   "dial-small-l3": {
+    "completed": true,
+    "hours": 0.13
+   },
+   "dial-medium-l1": {
+    "completed": true,
+    "hours": 0.04
+   },
+   "dial-medium-l2": {
+    "completed": true,
+    "hours": 0.12
+   },
+   "dial-medium-l3": {
+    "completed": true,
+    "hours": 0.35
+   },
+   "dial-large-l1": {
+    "completed": true,
+    "hours": 0.07
+   },
+   "dial-large-l2": {
+    "completed": true,
+    "hours": 0.16
+   },
+   "dial-large-l3": {
+    "completed": true,
+    "hours": 1.39
+   }
+  }
+ }
+}
