@@ -1,0 +1,4 @@
+{
+ "loop": {"video": "roboteam-loop-1080p.mp4", "small": "roboteam-loop-720p.mp4", "poster": "roboteam-loop.jpg", "seconds": 30.0},
+ "film": {"video": "roboteam-film-1080p.mp4", "poster": "roboteam-film.jpg", "seconds": 76.0}
+}

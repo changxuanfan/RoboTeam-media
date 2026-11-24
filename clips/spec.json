@@ -1,0 +1,38 @@
+[
+ {
+  "key": "transport-sort",
+  "video": "gpt-6.1-sol/transport-large-l3-yes/front",
+  "start": 100,
+  "length": 300,
+  "speed": 30,
+  "caption": "Twelve arms sort 36 items onto their boards."
+ },
+ {
+  "key": "mosaic-build",
+  "video": "opus-5.5/mosaic-large-l1-yes/top",
+  "start": 1129,
+  "length": 300,
+  "speed": 30,
+  "hold": 1.5,
+  "poster_at": 0.95,
+  "caption": "Eight arms finish a picture of 288 cubes."
+ },
+ {
+  "key": "relay-carry",
+  "video": "gpt-6.1-sol/relay-medium-l3-yes/front",
+  "start": 0,
+  "length": 228,
+  "speed": 30,
+  "caption": "Twelve arms pass three hinged timbers toward the goal.",
+  "hold": 1.0,
+  "poster_at": 0.6
+ },
+ {
+  "key": "dial-search",
+  "video": "gpt-6.1-sol/dial-large-l3-yes/front",
+  "speed": 30,
+  "hold": 1.5,
+  "poster_at": 0.97,
+  "caption": "Sixteen arms search for a hidden code and find it."
+ }
+]

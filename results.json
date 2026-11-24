@@ -4,7 +4,7 @@
   {
    "key": "oracle",
    "label": "Oracle",
-   "group": "Reference · ground-truth positions",
+   "group": "Reference \u00b7 ground-truth positions",
    "completed": 36,
    "within": {
     "3": 21,
@@ -19,7 +19,7 @@
   {
    "key": "adaptive",
    "label": "Adaptive",
-   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "group": "Agent systems \u00b7 gpt-6.1-sol, Codex",
    "completed": 28,
    "within": {
     "3": 16,
@@ -34,7 +34,7 @@
   {
    "key": "hierarchical",
    "label": "Hierarchical",
-   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "group": "Agent systems \u00b7 gpt-6.1-sol, Codex",
    "completed": 29,
    "within": {
     "3": 16,
@@ -49,7 +49,7 @@
   {
    "key": "decentralized",
    "label": "Decentralized",
-   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "group": "Agent systems \u00b7 gpt-6.1-sol, Codex",
    "completed": 29,
    "within": {
     "3": 16,
@@ -64,7 +64,7 @@
   {
    "key": "single-agent",
    "label": "Single-agent",
-   "group": "Agent systems · gpt-6.1-sol, Codex",
+   "group": "Agent systems \u00b7 gpt-6.1-sol, Codex",
    "completed": 27,
    "within": {
     "3": 10,
@@ -79,7 +79,7 @@
   {
    "key": "robot-tool-only",
    "label": "Robot tool only",
-   "group": "Vision and tools · gpt-6.1-sol, Codex",
+   "group": "Vision and tools \u00b7 gpt-6.1-sol, Codex",
    "completed": 13,
    "within": {
     "3": 8,
@@ -94,7 +94,7 @@
   {
    "key": "low-resolution",
    "label": "Low resolution",
-   "group": "Vision and tools · gpt-6.1-sol, Codex",
+   "group": "Vision and tools \u00b7 gpt-6.1-sol, Codex",
    "completed": 14,
    "within": {
     "3": 7,
@@ -109,7 +109,7 @@
   {
    "key": "gpt-claude-code",
    "label": "gpt-6.1-sol",
-   "group": "In Claude Code · adaptive system",
+   "group": "In Claude Code \u00b7 adaptive system",
    "completed": 25,
    "within": {
     "3": 16,
@@ -124,7 +124,7 @@
   {
    "key": "opus-claude-code",
    "label": "opus-5.5",
-   "group": "In Claude Code · adaptive system",
+   "group": "In Claude Code \u00b7 adaptive system",
    "completed": 27,
    "within": {
     "3": 13,
@@ -139,7 +139,7 @@
   {
    "key": "opus-codex",
    "label": "opus-5.5",
-   "group": "Other models · adaptive system, Codex",
+   "group": "Other models \u00b7 adaptive system, Codex",
    "completed": 26,
    "within": {
     "3": 12,
@@ -154,7 +154,7 @@
   {
    "key": "kimi",
    "label": "kimi-k3.1-pro",
-   "group": "Other models · adaptive system, Codex",
+   "group": "Other models \u00b7 adaptive system, Codex",
    "completed": 3,
    "within": {
     "3": 1,
@@ -169,7 +169,7 @@
   {
    "key": "qwen",
    "label": "qwen3.8-flash",
-   "group": "Other models · adaptive system, Codex",
+   "group": "Other models \u00b7 adaptive system, Codex",
    "completed": 1,
    "within": {
     "3": 0,
@@ -184,7 +184,7 @@
   {
    "key": "deepseek",
    "label": "deepseek-v4.1-flash",
-   "group": "Other models · adaptive system, Codex",
+   "group": "Other models \u00b7 adaptive system, Codex",
    "completed": 1,
    "within": {
     "3": 1,
@@ -199,7 +199,7 @@
   {
    "key": "glm",
    "label": "glm-5.3-flash",
-   "group": "Other models · adaptive system, Codex",
+   "group": "Other models \u00b7 adaptive system, Codex",
    "completed": 0,
    "within": {
     "3": 0,
@@ -649,6 +649,446 @@
    "dial-large-l3": {
     "completed": true,
     "hours": 1.39
+   }
+  },
+  "kimi-k3.1-pro": {
+   "transport-small-l1": {
+    "completed": true
+   },
+   "transport-small-l2": {
+    "completed": false
+   },
+   "transport-small-l3": {
+    "completed": false
+   },
+   "transport-medium-l1": {
+    "completed": false
+   },
+   "transport-medium-l2": {
+    "completed": false
+   },
+   "transport-medium-l3": {
+    "completed": false
+   },
+   "transport-large-l1": {
+    "completed": false
+   },
+   "transport-large-l2": {
+    "completed": false
+   },
+   "transport-large-l3": {
+    "completed": false
+   },
+   "mosaic-small-l1": {
+    "completed": false
+   },
+   "mosaic-small-l2": {
+    "completed": false
+   },
+   "mosaic-small-l3": {
+    "completed": false
+   },
+   "mosaic-medium-l1": {
+    "completed": false
+   },
+   "mosaic-medium-l2": {
+    "completed": false
+   },
+   "mosaic-medium-l3": {
+    "completed": false
+   },
+   "mosaic-large-l1": {
+    "completed": false
+   },
+   "mosaic-large-l2": {
+    "completed": false
+   },
+   "mosaic-large-l3": {
+    "completed": false
+   },
+   "relay-small-l1": {
+    "completed": false
+   },
+   "relay-small-l2": {
+    "completed": false
+   },
+   "relay-small-l3": {
+    "completed": false
+   },
+   "relay-medium-l1": {
+    "completed": false
+   },
+   "relay-medium-l2": {
+    "completed": false
+   },
+   "relay-medium-l3": {
+    "completed": false
+   },
+   "relay-large-l1": {
+    "completed": false
+   },
+   "relay-large-l2": {
+    "completed": false
+   },
+   "relay-large-l3": {
+    "completed": false
+   },
+   "dial-small-l1": {
+    "completed": true
+   },
+   "dial-medium-l1": {
+    "completed": true
+   },
+   "dial-small-l2": {
+    "completed": false
+   },
+   "dial-small-l3": {
+    "completed": false
+   },
+   "dial-large-l1": {
+    "completed": false
+   },
+   "dial-medium-l2": {
+    "completed": false
+   },
+   "dial-medium-l3": {
+    "completed": false
+   },
+   "dial-large-l2": {
+    "completed": false
+   },
+   "dial-large-l3": {
+    "completed": false
+   }
+  },
+  "qwen3.8-flash": {
+   "transport-small-l1": {
+    "completed": false
+   },
+   "transport-small-l2": {
+    "completed": false
+   },
+   "transport-small-l3": {
+    "completed": false
+   },
+   "transport-medium-l1": {
+    "completed": false
+   },
+   "transport-medium-l2": {
+    "completed": false
+   },
+   "transport-medium-l3": {
+    "completed": false
+   },
+   "transport-large-l1": {
+    "completed": false
+   },
+   "transport-large-l2": {
+    "completed": false
+   },
+   "transport-large-l3": {
+    "completed": false
+   },
+   "mosaic-small-l1": {
+    "completed": false
+   },
+   "mosaic-small-l2": {
+    "completed": false
+   },
+   "mosaic-small-l3": {
+    "completed": false
+   },
+   "mosaic-medium-l1": {
+    "completed": false
+   },
+   "mosaic-medium-l2": {
+    "completed": false
+   },
+   "mosaic-medium-l3": {
+    "completed": false
+   },
+   "mosaic-large-l1": {
+    "completed": false
+   },
+   "mosaic-large-l2": {
+    "completed": false
+   },
+   "mosaic-large-l3": {
+    "completed": false
+   },
+   "relay-small-l1": {
+    "completed": false
+   },
+   "relay-small-l2": {
+    "completed": false
+   },
+   "relay-small-l3": {
+    "completed": false
+   },
+   "relay-medium-l1": {
+    "completed": false
+   },
+   "relay-medium-l2": {
+    "completed": false
+   },
+   "relay-medium-l3": {
+    "completed": false
+   },
+   "relay-large-l1": {
+    "completed": false
+   },
+   "relay-large-l2": {
+    "completed": false
+   },
+   "relay-large-l3": {
+    "completed": false
+   },
+   "dial-small-l1": {
+    "completed": false
+   },
+   "dial-medium-l1": {
+    "completed": false
+   },
+   "dial-small-l2": {
+    "completed": true
+   },
+   "dial-small-l3": {
+    "completed": false
+   },
+   "dial-large-l1": {
+    "completed": false
+   },
+   "dial-medium-l2": {
+    "completed": false
+   },
+   "dial-medium-l3": {
+    "completed": false
+   },
+   "dial-large-l2": {
+    "completed": false
+   },
+   "dial-large-l3": {
+    "completed": false
+   }
+  },
+  "deepseek-v4.1-flash": {
+   "transport-small-l1": {
+    "completed": false
+   },
+   "transport-small-l2": {
+    "completed": false
+   },
+   "transport-small-l3": {
+    "completed": false
+   },
+   "transport-medium-l1": {
+    "completed": false
+   },
+   "transport-medium-l2": {
+    "completed": false
+   },
+   "transport-medium-l3": {
+    "completed": false
+   },
+   "transport-large-l1": {
+    "completed": false
+   },
+   "transport-large-l2": {
+    "completed": false
+   },
+   "transport-large-l3": {
+    "completed": false
+   },
+   "mosaic-small-l1": {
+    "completed": false
+   },
+   "mosaic-small-l2": {
+    "completed": false
+   },
+   "mosaic-small-l3": {
+    "completed": false
+   },
+   "mosaic-medium-l1": {
+    "completed": false
+   },
+   "mosaic-medium-l2": {
+    "completed": false
+   },
+   "mosaic-medium-l3": {
+    "completed": false
+   },
+   "mosaic-large-l1": {
+    "completed": false
+   },
+   "mosaic-large-l2": {
+    "completed": false
+   },
+   "mosaic-large-l3": {
+    "completed": false
+   },
+   "relay-small-l1": {
+    "completed": false
+   },
+   "relay-small-l2": {
+    "completed": false
+   },
+   "relay-small-l3": {
+    "completed": false
+   },
+   "relay-medium-l1": {
+    "completed": false
+   },
+   "relay-medium-l2": {
+    "completed": false
+   },
+   "relay-medium-l3": {
+    "completed": false
+   },
+   "relay-large-l1": {
+    "completed": false
+   },
+   "relay-large-l2": {
+    "completed": false
+   },
+   "relay-large-l3": {
+    "completed": false
+   },
+   "dial-small-l1": {
+    "completed": true
+   },
+   "dial-medium-l1": {
+    "completed": false
+   },
+   "dial-small-l2": {
+    "completed": false
+   },
+   "dial-small-l3": {
+    "completed": false
+   },
+   "dial-large-l1": {
+    "completed": false
+   },
+   "dial-medium-l2": {
+    "completed": false
+   },
+   "dial-medium-l3": {
+    "completed": false
+   },
+   "dial-large-l2": {
+    "completed": false
+   },
+   "dial-large-l3": {
+    "completed": false
+   }
+  },
+  "glm-5.3-flash": {
+   "transport-small-l1": {
+    "completed": false
+   },
+   "transport-small-l2": {
+    "completed": false
+   },
+   "transport-small-l3": {
+    "completed": false
+   },
+   "transport-medium-l1": {
+    "completed": false
+   },
+   "transport-medium-l2": {
+    "completed": false
+   },
+   "transport-medium-l3": {
+    "completed": false
+   },
+   "transport-large-l1": {
+    "completed": false
+   },
+   "transport-large-l2": {
+    "completed": false
+   },
+   "transport-large-l3": {
+    "completed": false
+   },
+   "mosaic-small-l1": {
+    "completed": false
+   },
+   "mosaic-small-l2": {
+    "completed": false
+   },
+   "mosaic-small-l3": {
+    "completed": false
+   },
+   "mosaic-medium-l1": {
+    "completed": false
+   },
+   "mosaic-medium-l2": {
+    "completed": false
+   },
+   "mosaic-medium-l3": {
+    "completed": false
+   },
+   "mosaic-large-l1": {
+    "completed": false
+   },
+   "mosaic-large-l2": {
+    "completed": false
+   },
+   "mosaic-large-l3": {
+    "completed": false
+   },
+   "relay-small-l1": {
+    "completed": false
+   },
+   "relay-small-l2": {
+    "completed": false
+   },
+   "relay-small-l3": {
+    "completed": false
+   },
+   "relay-medium-l1": {
+    "completed": false
+   },
+   "relay-medium-l2": {
+    "completed": false
+   },
+   "relay-medium-l3": {
+    "completed": false
+   },
+   "relay-large-l1": {
+    "completed": false
+   },
+   "relay-large-l2": {
+    "completed": false
+   },
+   "relay-large-l3": {
+    "completed": false
+   },
+   "dial-small-l1": {
+    "completed": false
+   },
+   "dial-medium-l1": {
+    "completed": false
+   },
+   "dial-small-l2": {
+    "completed": false
+   },
+   "dial-small-l3": {
+    "completed": false
+   },
+   "dial-large-l1": {
+    "completed": false
+   },
+   "dial-medium-l2": {
+    "completed": false
+   },
+   "dial-medium-l3": {
+    "completed": false
+   },
+   "dial-large-l2": {
+    "completed": false
+   },
+   "dial-large-l3": {
+    "completed": false
    }
   }
  }
