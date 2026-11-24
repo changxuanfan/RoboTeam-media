@@ -17,7 +17,6 @@ three camera views of every run, at ten times real time.
 | `clips/` | The short looping clips of the project page, with `spec.json` (what each clip is cut from) and `clips.json` (each clip's length and true playback speed) |
 | `film/` | The RoboTeam film: a silent 30 s loop in two sizes with its poster, the long film, and `film.json`, which names the files |
 | `results.json` | The 14 conditions of the paper (tasks completed, tasks completed within 3, 6, 12 and 24 hours, median time and input tokens per task, median atomic failure rate) and, per video set, whether each of the 36 tasks was completed |
-| `oracle/` | The earlier 720p Oracle recordings with their manifest. The project page now plays the Oracle runs from the dataset above |
 
 Posters and clips are made with `scripts/site/site_media.py` in the main repository, and the
 formats of `results.json` and of the page's media index are described in its `site/DESIGN.md`.
