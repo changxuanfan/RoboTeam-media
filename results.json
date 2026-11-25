@@ -4,7 +4,7 @@
   {
    "key": "oracle",
    "label": "Oracle",
-   "group": "Reference \u00b7 ground-truth positions",
+   "group": "Oracle \u00b7 ground-truth positions",
    "completed": 36,
    "within": {
     "3": 21,
