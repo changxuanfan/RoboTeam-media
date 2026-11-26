@@ -8,9 +8,7 @@
  "film": {
   "video": "https://huggingface.co/datasets/RoboTeam-Bench/RoboTeam-Videos/resolve/main/film/roboteam-film-1080p.mp4",
   "poster": "roboteam-film.webp",
-  "seconds": 104.2,
-  "intro": "roboteam-film-intro.mp4",
-  "intro_seconds": 6.0
+  "seconds": 104.2
  },
  "hero": {
   "video": "https://huggingface.co/datasets/RoboTeam-Bench/RoboTeam-Videos/resolve/main/film/roboteam-hero-1080p.mp4",
