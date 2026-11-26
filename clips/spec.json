@@ -1,38 +1,196 @@
 [
  {
-  "key": "transport-sort",
+  "key": "transport-large-l3",
   "video": "gpt-6.1-sol/transport-large-l3-yes/front",
-  "start": 100,
-  "length": 300,
+  "start": 976.6,
+  "length": 300.0,
   "speed": 30,
-  "caption": "Twelve arms sort 36 items onto their boards."
- },
- {
-  "key": "mosaic-build",
-  "video": "opus-5.5/mosaic-large-l1-yes/top",
-  "start": 1129,
-  "length": 300,
-  "speed": 30,
+  "caption": "gpt-6.1-sol, transport-large-l3",
   "hold": 1.5,
-  "poster_at": 0.95,
-  "caption": "Eight arms finish a picture of 288 cubes."
+  "poster_at": 0.97
  },
  {
-  "key": "relay-carry",
+  "key": "transport-small-l3",
+  "video": "gpt-6.1-sol/transport-small-l3-yes/front",
+  "start": 5.4,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, transport-small-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "transport-medium-l3",
+  "video": "gpt-6.1-sol/transport-medium-l3-yes/front",
+  "start": 568.4,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, transport-medium-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "transport-large-l1",
+  "video": "gpt-6.1-sol/transport-large-l1-no/front",
+  "start": 78.2,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, transport-large-l1",
+  "poster_at": 0.5
+ },
+ {
+  "key": "transport-large-l2",
+  "video": "gpt-6.1-sol/transport-large-l2-yes/front",
+  "start": 372.6,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, transport-large-l2",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "mosaic-large-l3",
+  "video": "gpt-6.1-sol/mosaic-large-l3-no/top",
+  "start": 502.0,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, mosaic-large-l3",
+  "poster_at": 0.5
+ },
+ {
+  "key": "mosaic-small-l3",
+  "video": "gpt-6.1-sol/mosaic-small-l3-yes/top",
+  "start": 55.2,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, mosaic-small-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "mosaic-medium-l3",
+  "video": "gpt-6.1-sol/mosaic-medium-l3-yes/top",
+  "start": 525.7,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, mosaic-medium-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "mosaic-large-l1",
+  "video": "gpt-6.1-sol/mosaic-large-l1-no/top",
+  "start": 574.5,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, mosaic-large-l1",
+  "poster_at": 0.5
+ },
+ {
+  "key": "mosaic-large-l2",
+  "video": "gpt-6.1-sol/mosaic-large-l2-no/top",
+  "start": 517.2,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, mosaic-large-l2",
+  "poster_at": 0.5
+ },
+ {
+  "key": "relay-large-l3",
+  "video": "gpt-6.1-sol/relay-large-l3-yes/front",
+  "start": 275.5,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, relay-large-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "relay-small-l3",
+  "video": "gpt-6.1-sol/relay-small-l3-yes/front",
+  "start": 0.0,
+  "length": 146.4,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, relay-small-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "relay-medium-l3",
   "video": "gpt-6.1-sol/relay-medium-l3-yes/front",
-  "start": 0,
-  "length": 228,
+  "start": 0.0,
+  "length": 227.3,
   "speed": 30,
-  "caption": "Twelve arms pass three hinged timbers toward the goal.",
-  "hold": 1.0,
-  "poster_at": 0.6
+  "caption": "gpt-6.1-sol, relay-medium-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
  },
  {
-  "key": "dial-search",
-  "video": "gpt-6.1-sol/dial-large-l3-yes/front",
+  "key": "relay-large-l1",
+  "video": "gpt-6.1-sol/relay-large-l1-yes/front",
+  "start": 0.0,
+  "length": 134.6,
   "speed": 30,
+  "caption": "gpt-6.1-sol, relay-large-l1",
   "hold": 1.5,
-  "poster_at": 0.97,
-  "caption": "Sixteen arms search for a hidden code and find it."
+  "poster_at": 0.97
+ },
+ {
+  "key": "relay-large-l2",
+  "video": "gpt-6.1-sol/relay-large-l2-no/front",
+  "start": 102.7,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, relay-large-l2",
+  "poster_at": 0.5
+ },
+ {
+  "key": "dial-large-l3",
+  "video": "gpt-6.1-sol/dial-large-l3-yes/front",
+  "start": 0.0,
+  "length": 271.3,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, dial-large-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "dial-small-l3",
+  "video": "gpt-6.1-sol/dial-small-l3-no/front",
+  "start": 245.9,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, dial-small-l3",
+  "poster_at": 0.5
+ },
+ {
+  "key": "dial-medium-l3",
+  "video": "gpt-6.1-sol/dial-medium-l3-yes/front",
+  "start": 169.9,
+  "length": 300.0,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, dial-medium-l3",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "dial-large-l1",
+  "video": "gpt-6.1-sol/dial-large-l1-yes/front",
+  "start": 0.0,
+  "length": 12.4,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, dial-large-l1",
+  "hold": 1.5,
+  "poster_at": 0.97
+ },
+ {
+  "key": "dial-large-l2",
+  "video": "gpt-6.1-sol/dial-large-l2-yes/front",
+  "start": 0.0,
+  "length": 122.4,
+  "speed": 30,
+  "caption": "gpt-6.1-sol, dial-large-l2",
+  "hold": 1.5,
+  "poster_at": 0.97
  }
 ]
